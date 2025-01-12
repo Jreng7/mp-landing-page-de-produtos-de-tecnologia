@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #000;
+  --gray-color: #9CA3AF;
+  --green-color: #22C55E;
+  --white-color: #fff;
+  --line-gradiente: linear-gradient(#1371EF, #E539A2)
+}
+
+body {
+  background-color: var(--black-color);
+  padding: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  :nth-child(2) {
+    width: 20%;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    color: var(--gray-color);
+  }
+
+  h1 {
+    color: var(--white-color);
+  }
+}
